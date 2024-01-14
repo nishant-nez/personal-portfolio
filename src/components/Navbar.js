@@ -10,6 +10,7 @@ import Drawer from '@mui/material/Drawer';
 import TipsAndUpdatesIcon from '@mui/icons-material/TipsAndUpdates';
 import ContactsIcon from '@mui/icons-material/Contacts';
 import DescriptionIcon from '@mui/icons-material/Description';
+import Divider from '@mui/material/Divider';
 
 const Navbar = () => {
     const [state, setState] = useState({
@@ -53,43 +54,46 @@ const Navbar = () => {
     );
 
     return (
-        <div className='flex items-center justify-between px-12 pt-10 pb-8'>
-            <Link to='/'>
-                <div className='flex gap-2 items-center z-50 cursor-pointer'>
-                    <Avatar style={ { backgroundColor: blue[500] } }>
-                        <Typography variant='h5' className='bg-transparent'>
-                            N
-                        </Typography>
-                    </Avatar>
+        <>
+            <div className='flex items-center justify-between px-12 pt-10 pb-8'>
+                <Link to='/'>
+                    <div className='flex gap-2 items-center z-50 cursor-pointer'>
+                        <Avatar style={ { backgroundColor: blue[500] } }>
+                            <Typography variant='h5' className='bg-transparent'>
+                                N
+                            </Typography>
+                        </Avatar>
 
-                    <p className='font-bold text-xl'>Nishant</p>
-                    <p className='text-xl'>Khadka</p>
+                        <p className='font-bold text-xl'>Nishant</p>
+                        <p className='text-xl'>Khadka</p>
+                    </div>
+                </Link>
+
+                <div className='hidden md:flex gap-14'>
+                    <Link to='/resume'>
+                        <p className='text-gray-500 hover:text-gray-700 cursor-pointer'>Resume</p>
+                    </Link>
+                    <Link to='/projects'>
+                        <p className='text-gray-500 hover:text-gray-700 cursor-pointer'>Projects</p>
+                    </Link>
+                    <Link to='/contact'>
+                        <p className='text-gray-500 hover:text-gray-700 cursor-pointer'>Contact</p>
+                    </Link>
                 </div>
-            </Link>
 
-            <div className='hidden md:flex gap-14'>
-                <Link to='/resume'>
-                    <p className='text-gray-500 hover:text-gray-700 cursor-pointer'>Resume</p>
-                </Link>
-                <Link to='/projects'>
-                    <p className='text-gray-500 hover:text-gray-700 cursor-pointer'>Projects</p>
-                </Link>
-                <Link to='/contact'>
-                    <p className='text-gray-500 hover:text-gray-700 cursor-pointer'>Contact</p>
-                </Link>
+                <div className='md:hidden'>
+                    <MenuIcon onClick={ toggleDrawer("right", true) } />
+                    <Drawer
+                        anchor={ "right" }
+                        open={ state["right"] }
+                        onClose={ toggleDrawer("right", false) }
+                    >
+                        { list("right") }
+                    </Drawer>
+                </div>
             </div>
-
-            <div className='md:hidden'>
-                <MenuIcon onClick={ toggleDrawer("right", true) } />
-                <Drawer
-                    anchor={ "right" }
-                    open={ state["right"] }
-                    onClose={ toggleDrawer("right", false) }
-                >
-                    { list("right") }
-                </Drawer>
-            </div>
-        </div>
+            <Divider />
+        </>
     );
 };
 

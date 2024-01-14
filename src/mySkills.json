@@ -1,0 +1,90 @@
+{
+  "React": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
+    "type": "frameworks"
+  },
+  "Python": {
+    "url": "https://assets.stickpng.com/images/5848152fcef1014c0b5e4967.png",
+    "type": "language"
+  },
+  "Django": {
+    "url": "https://static-00.iconduck.com/assets.00/django-icon-1606x2048-lwmw1z73.png",
+    "type": "frameworks"
+  },
+  "AWS": {
+    "url": "https://download.logo.wine/logo/Amazon_Web_Services/Amazon_Web_Services-Logo.wine.png",
+    "type": "devops"
+  },
+  "Docker": {
+    "url": "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/97_Docker_logo_logos-512.png",
+    "type": "devops"
+  },
+  "Flutter": {
+    "url": "https://web-strapi.mrmilu.com/uploads/flutter_logo_470e9f7491.png",
+    "type": "frameworks"
+  },
+  "Jenkins ": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Jenkins_logo.svg/1483px-Jenkins_logo.svg.png",
+    "type": "devops"
+  },
+  "Selenium": {
+    "url": "https://miro.medium.com/v2/resize:fit:400/1*vGR3gb-FoWiZfB5ZJ4oaiQ.png",
+    "type": "libraries"
+  },
+  "NodeJS": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/2560px-Node.js_logo.svg.png",
+    "type": "frameworks"
+  },
+  "ExpressJS": {
+    "url": "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/express-js-icon.png",
+    "type": "frameworks"
+  },
+  "JavaScript": {
+    "url": "https://logodownload.org/wp-content/uploads/2022/04/javascript-logo-1.png",
+    "type": "language"
+  },
+  "C": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png",
+    "type": "language"
+  },
+  "C++": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1822px-ISO_C%2B%2B_Logo.svg.png",
+    "type": "language"
+  },
+  "Bash": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Bash_Logo_Colored.svg/2048px-Bash_Logo_Colored.svg.png",
+    "type": "language"
+  },
+  "Linux": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/1200px-Tux.svg.png",
+    "type": "devops"
+  },
+  "PostgreSQL": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/993px-Postgresql_elephant.svg.png",
+    "type": "database"
+  },
+  "MariaDB": {
+    "url": "https://static-00.iconduck.com/assets.00/mariadb-icon-512x340-txozryr2.png",
+    "type": "database"
+  },
+  "MySQL": {
+    "url": "https://pngimg.com/d/mysql_PNG11.png",
+    "type": "database"
+  },
+  "Git": {
+    "url": "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
+    "type": "devops"
+  },
+  "Apache": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Apache_Feather_Logo.svg/1200px-Apache_Feather_Logo.svg.png",
+    "type": "devops"
+  },
+  "Nginx": {
+    "url": "https://cdn.icon-icons.com/icons2/2699/PNG/512/nginx_logo_icon_169915.png",
+    "type": "devops"
+  },
+  "Photoshop": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/2101px-Adobe_Photoshop_CC_icon.svg.png",
+    "type": "others"
+  }
+}
