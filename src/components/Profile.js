@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import ReactTextTransition, { presets } from "react-text-transition";
+import { Link } from 'react-router-dom';
 import Avatar from "@mui/material/Avatar";
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
@@ -87,26 +88,28 @@ const Profile = () => {
                     >
                         Download CV
                     </Button>
-                    <Button
-                        variant="contained"
-                        sx={ {
-                            backgroundColor: '#fff',
-                            color: 'black',
-                            border: '2px solid #a1a1a1',
-                            borderRadius: '20px',
-                            textTransform: 'none',
-                            fontFamily: 'Poppins, sans-serif',
-                            fontWeight: 400,
-                            width: 160,
-                            height: 47,
-                            fontSize: 16,
-                            '&:hover': {
-                                backgroundColor: '#a1a1a1',
-                            },
-                        } }
-                    >
-                        Contact
-                    </Button>
+                    <Link to='/contact'>
+                        <Button
+                            variant="contained"
+                            sx={ {
+                                backgroundColor: '#fff',
+                                color: 'black',
+                                border: '2px solid #a1a1a1',
+                                borderRadius: '20px',
+                                textTransform: 'none',
+                                fontFamily: 'Poppins, sans-serif',
+                                fontWeight: 400,
+                                width: 160,
+                                height: 47,
+                                fontSize: 16,
+                                '&:hover': {
+                                    backgroundColor: '#a1a1a1',
+                                },
+                            } }
+                        >
+                            Contact
+                        </Button>
+                    </Link>
                 </div>
             </div>
         </div>

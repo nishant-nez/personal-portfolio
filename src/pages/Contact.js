@@ -9,7 +9,7 @@ const Contact = () => {
         <>
             <Navbar />
             <ContactCard />
-            <div className="flex flex-col sm:flex-row">
+            <div>
                 <Socials />
                 <ContactForm />
             </div>
