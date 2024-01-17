@@ -135,7 +135,7 @@ const ProjectList = () => {
                                             {
                                                 item.tags.split(' ').map((tag) => {
                                                     return (
-                                                        <Chip label={ tag } onClick={ () => { } } />
+                                                        <Chip label={ tag } key={ tag } onClick={ () => { } } />
                                                     )
                                                 })
                                             }

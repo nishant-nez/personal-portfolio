@@ -3,10 +3,10 @@ import { Divider } from "@mui/material";
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
+import emailjs from '@emailjs/browser';
 
 // snack
 import * as React from 'react';
-import Stack from '@mui/material/Stack';
 import Snackbar from '@mui/material/Snackbar';
 import MuiAlert from '@mui/material/Alert';
 
@@ -31,16 +31,34 @@ const ContactForm = () => {
     };
 
     const handleSubmit = () => {
-        console.log("pressed", formData);
+        const serviceID = 'service_u1t0dyt';
+        const templateID = 'template_evvt1f8';
+        const publicKey = 'CRXdJzV6J5l-H2uYy';
 
         if (!formData.email || !formData.name || !formData.subject || !formData.message) {
-            console.log('Form is incomplete');
             setSnackType('error');
             setSnackMessage('Please fill all the fields');
         } else {
-            console.log('Form is complete');
-            setSnackType('success');
-            setSnackMessage('Message sent successfully');
+            const templateParams = {
+                from_name: formData.name,
+                from_email: formData.email,
+                from_subject: formData.subject,
+                message: formData.message
+            };
+            emailjs.send(serviceID, templateID, templateParams, publicKey)
+                .then((response) => {
+                    setSnackType('success');
+                    setSnackMessage('Message sent successfully');
+                    setFormData({
+                        name: '',
+                        email: '',
+                        subject: '',
+                        message: '',
+                    });
+                }).catch((error) => {
+                    setSnackType('error');
+                    setSnackMessage('Could not send the email!');
+                });
         }
 
         setOpen(true);

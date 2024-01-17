@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import ReactTextTransition, { presets } from "react-text-transition";
+import ReactTextTransition from "react-text-transition";
 import { Link } from 'react-router-dom';
 import Avatar from "@mui/material/Avatar";
 import Typography from '@mui/material/Typography';

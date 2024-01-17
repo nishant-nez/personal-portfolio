@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
 import Projects from './pages/Projects';
+import Resume from './pages/Resume';
 
 import './App.css';
 
@@ -15,6 +16,11 @@ function App() {
             exact
             path='/'
             element={ <Home /> }
+          />
+          <Route
+            exact
+            path='/resume'
+            element={ <Resume /> }
           />
           <Route
             exact
