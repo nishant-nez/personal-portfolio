@@ -33,7 +33,7 @@ const Profile = () => {
         <div className="flex flex-col gap-14 md:flex-row w-full items-center justify-center p-16">
             <div className="p-4 rounded-full shadow-xl hover:shadow-2xl border border-gray-200">
                 <Avatar
-                    alt="Nishant Khadka"
+                    alt="Nishant Khadka - profile picture"
                     src="/images/nishant.jpg"
                     sx={ { width: 400, height: 400 } }
                 />
