@@ -11,6 +11,13 @@ import { motion } from 'framer-motion';
 const ProjectList = () => {
     const myProjects = [
         {
+            title: "Real Estate Marketplace",
+            link: "https://github.com/nishant-nez/Real-Estate-Marketplace",
+            image: "/images/estate.png",
+            description: "",
+            tags: "nestJS nextJS postgreSQL socket.io fastAPI"
+        },
+        {
             title: "Network Monitoring",
             link: "https://github.com/nishant-nez/Network-Monitoring",
             image: "/images/network.png",

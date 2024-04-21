@@ -7,7 +7,7 @@ const ResumeList = () => {
         {
             title: "DevOps Intern",
             company: "Deerwalk Institute of Technology",
-            date: "Dec 2022 - Present",
+            date: "Dec 2022 - Apr 2024",
             description: "Managed AWS, handled servers, hosted and dockerized applications, developed monitoring application, wrote automation scripts in bash and Python and managed overall network infrastructure.",
         },
     ];

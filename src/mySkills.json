@@ -3,12 +3,28 @@
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
     "type": "frameworks"
   },
+  "TypeScript": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png",
+    "type": "language"
+  },
+  "Next JS": {
+    "url": "https://plugins.jetbrains.com/files/19842/521114/icon/pluginIcon.png",
+    "type": "frameworks"
+  },
+  "Nest JS": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/NestJS.svg",
+    "type": "frameworks"
+  },
   "Python": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png",
     "type": "language"
   },
   "Django": {
     "url": "https://static-00.iconduck.com/assets.00/django-icon-1606x2048-lwmw1z73.png",
+    "type": "frameworks"
+  },
+  "FastAPI": {
+    "url": "https://try.direct/files/8400033b-cf2e-4fc4-ac91-45cadee082ed.svg",
     "type": "frameworks"
   },
   "AWS": {
