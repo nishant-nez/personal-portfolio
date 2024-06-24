@@ -6,7 +6,7 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 
 const Profile = () => {
-    const items = ["DevOps Engineer", "Software Engineer", "Full Stack Developer"];
+    const items = ["DevOps Engineer", "Software Engineer", "Python Developer"];
     const [currentIndex, setCurrentIndex] = useState(0);
 
     useEffect(() => {
@@ -63,7 +63,7 @@ const Profile = () => {
                     sx={ { color: 'grey.600', fontSize: 18, fontFamily: 'Poppins' } }
                     className="max-w-[650px]"
                 >
-                    A Computer Science student and a tech enthusiast. Currently working as a DevOps intern at Deerwalk Institute of Technology.
+                    A Computer Science student and a tech enthusiast. Currently an undergraduate at Deerwalk Institute of Technology.
                 </Typography>
                 <div className="flex gap-4 my-6 items-center justify-center md:justify-start">
                     <Button
