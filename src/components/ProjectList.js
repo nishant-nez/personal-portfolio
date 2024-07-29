@@ -11,6 +11,13 @@ import { motion } from 'framer-motion';
 const ProjectList = () => {
     const myProjects = [
         {
+            title: "Avari",
+            link: "https://github.com/nishant-nez/Avari-AU",
+            image: "/images/av1.png",
+            description: "",
+            tags: "postgreSQL react express"
+        },
+        {
             title: "Online Voting System",
             link: "https://election.nishantkhadka.com.np",
             image: "/images/voting.png",
