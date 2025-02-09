@@ -1,4 +1,12 @@
 {
+  ".NET": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Microsoft_.NET_logo.svg",
+    "type": "frameworks"
+  },
+  "ELK Stack": {
+    "url": "https://cdn.worldvectorlogo.com/logos/elasticsearch.svg",
+    "type": "frameworks"
+  },
   "React": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
     "type": "frameworks"
@@ -57,6 +65,10 @@
   },
   "JavaScript": {
     "url": "https://logodownload.org/wp-content/uploads/2022/04/javascript-logo-1.png",
+    "type": "language"
+  },
+  "C#": {
+    "url": "https://www.vikingsoftware.com/wp-content/uploads/2024/02/C.png",
     "type": "language"
   },
   "C": {

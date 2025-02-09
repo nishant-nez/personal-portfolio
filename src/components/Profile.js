@@ -6,7 +6,7 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 
 const Profile = () => {
-    const items = ["DevOps Engineer", "Software Engineer", "Python Developer"];
+    const items = ["Software Engineer"];
     const [currentIndex, setCurrentIndex] = useState(0);
 
     useEffect(() => {

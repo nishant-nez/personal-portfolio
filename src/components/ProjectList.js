@@ -11,6 +11,20 @@ import { motion } from 'framer-motion';
 const ProjectList = () => {
     const myProjects = [
         {
+            title: "Book Store",
+            link: "https://github.com/nishant-nez/BookStore_MVC",
+            image: "/images/book-store.png",
+            description: "",
+            tags: "MSSQLServer2022 .NET RazorPages"
+        },
+        {
+            title: "Personalized Healthcare System",
+            link: "https://github.com/nishant-nez/Personalized-Healthcare-System",
+            image: "/images/personalized-healthcare.png",
+            description: "",
+            tags: "postgreSQL djangoDRF react"
+        },
+        {
             title: "Avari",
             link: "https://github.com/nishant-nez/Avari-AU",
             image: "/images/av1.png",

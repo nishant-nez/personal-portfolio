@@ -5,10 +5,16 @@ import Certificates from './Certificates';
 const ResumeList = () => {
     const myExperience = [
         {
+            title: "Software Developer Intern",
+            company: "Green Tick Nepal",
+            date: "Jul 2024 - Nov 2024",
+            description: "Engaged in extensive research and development of a Security Information and Event Management (SIEM) system, with a focus on the effective utilization of Elasticsearch. Led the development of a comprehensive Ticket Management System featuring advanced capabilities for Ticket, SLA, User, Reports, and Notification management. Spearheaded the creation of a DDoS protection system, overseeing tools setup, configuration, automation, coding, deployment, and product management. Implemented Redis to streamline processes, resulting in significantly reduced load times and improved response times. Managed the setup, configuration, and optimization of the ELK stack, developing and refining data pipelines. Conducted in-depth research on the dark web and online security, enhancing knowledge in cybersecurity best practices and threat mitigation.",
+        },
+        {
             title: "DevOps Intern",
             company: "Deerwalk Institute of Technology",
             date: "Dec 2022 - Apr 2024",
-            description: "Managed AWS, handled servers, hosted and dockerized applications, developed monitoring application, wrote automation scripts in bash and Python and managed overall network infrastructure.",
+            description: "Developed a network monitoring web app with real-time tracking and alerts, created a QR code inventory management system, managed AWS and local servers, automated Fortinet firewall tasks, deployed applications using CI/CD pipelines and Docker, contributed to fiber optic cabling migration, and provided IT support and network management.",
         },
     ];
 

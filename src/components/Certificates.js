@@ -4,11 +4,11 @@ import { motion } from 'framer-motion';
 const Certificates = () => {
     const myCertificates = [
         {
-            title: 'Data Analyst with Python',
-            date: 'October 22, 2022',
-            id: '5f66e7939e826048c35a631930f352aee9a5b1da',
-            image: '/images/analyst.png',
-            link: 'https://www.datacamp.com/statement-of-accomplishment/track/5f66e7939e826048c35a631930f352aee9a5b1da'
+            title: 'Blue Team Junior Analyst',
+            date: 'August 01, 2024',
+            id: '171603875',
+            image: '/images/blue-team.png',
+            link: 'https://elearning.securityblue.team/home/certificate/171603875'
         },
         {
             title: 'Data Analyst with Python',
